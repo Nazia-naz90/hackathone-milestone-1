@@ -6,41 +6,41 @@ body {
   font-family: "Times New Roman", Times, serif;
   margin: 20px;
   color: white;
-  background-color:rgb(93, 238, 238);
-
+  background-color: rgb(93, 238, 238);
 }
 .heading {
   color: rgb(237, 83, 83);
-  font-size: xx-large;
+  text-shadow: 2px 2px 5px black;
+  font-size:8vmin;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .main {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 40vw;
   height: 250vh;
   margin: auto;
-  padding: 40px;
+  padding: 30px;
   border-radius: 60px;
   text-align: center;
   margin-bottom: 200px;
   position: relative;
   background: rgba(0, 0, 0, 0.7) url("/assets/images/reume-bg2.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
-  background-blend-mode:darken;
+  background-size: cover;
+  background-blend-mode: darken;
 }
 .personal {
-  color: rgb(179, 59, 123);
-  /* background-color: #5607aa; */
+  color: rgb(209, 86, 152);
   text-align: center;
   padding: 15px;
-  font-size :5vmin;
-  margin:auto;
+  font-size: 5vmin;
+  margin: auto;
 }
 .forpic {
   color: #5607aa;
@@ -54,7 +54,7 @@ input[type="file"] {
   margin-top: 20px;
 }
 input[type="file"]::file.selector-button {
-  background-color:#b7e2ed;
+  background-color: #b7e2ed;
   cursor: pointer;
   font-size: large;
   color: white;
@@ -64,18 +64,21 @@ input[type="file"]::file.selector-button {
 form {
   margin-bottom: 40px;
 }
-input,textarea{
+input,
+textarea {
   display: block;
   margin-bottom: 10px;
   width: 100%;
   padding: 8px;
   font-size: 14px;
-  background-color:rgba(205, 183, 143, 0.922);
+  background-color: rgba(205, 183, 143, 0.922);
   border-width: 3px;
   border-radius: 40px;
+  border: none;
 }
-.inputname{
-    color:white;
-    font-size:4vmin;
-    font-weight: bold;
+.inputname {
+  width: 100%;
+  color: white;
+  font-size: 4vmin;
+  font-weight: bold;
 }
